@@ -1,11 +1,19 @@
-# Obsidian Notes
+# Welcome to MkDocs
 
-Publish your public notes with MkDocs
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Hello World!
+## Commands
 
-The `index.md` in the `/docs` folder is the homepage you see here.
+* `mkdocs new [dir-name]` - Create a new project.
+* `mkdocs serve` - Start the live-reloading docs server.
+* `mkdocs build` - Build the documentation site.
+* `mkdocs -h` - Print help message and exit.
 
-The folders in `/docs` appear as the main sections on the navigation bar.
+## Project layout
 
-The notes appear as pages within these sections. For example, [[Note 1]] in `Topic 1`
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+        ...       # Other markdown pages, images and other files.
+![Image title](/images/aasad.png){ align=left }
+![[aasad.png]]
