@@ -1,12 +1,10 @@
 ---
 title: Satisfying-you
 description: Este é um exemplo de arquivo Markdown abrangente com todos os recursos suportados.
-tags: React, Mobile, Android
-thumbnail: OIP.jpg
-dataInicio: 2023-07-01
-dataFim: 2024-11-01
-colecao: Projetos
-importante: true
+tags: 
+    - React 
+    - Mobile 
+    - Android
 ---
 
 # Projeto Completo

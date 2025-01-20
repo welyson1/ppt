@@ -1,12 +1,9 @@
 ---
 title: 3° Lugar com a plataforma ColabCom
 description: Este é um exemplo de arquivo Markdown abrangente com todos os recursos suportados.
-tags: Hackathon, Agro
-thumbnail: OIP.jpg
-dataInicio: 2024-11-21
-dataFim: 2024-11-23
-colecao: Hackathon
-importante: true
+tags:  
+    - Hackathon 
+    - Agro
 ---
 
 # Projeto Completo

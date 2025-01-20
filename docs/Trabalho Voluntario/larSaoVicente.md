@@ -1,12 +1,9 @@
 ---
 title: Lar São vicente de Paula
 description: Aulas de informatica para crianças de 8 à 12 anos
-tags: Crianças, Informatica
-thumbnail: OIP.jpg
-dataInicio: 2024-03-01
-dataFim: 2024-01-01
-colecao: Trabalho voluntário
-importante: true
+tags:
+    - Crianças
+    - Informatica
 ---
 
 # Projeto Completo

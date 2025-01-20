@@ -1,34 +1,46 @@
 site_name: Portfólio
 
 theme:
-  name: 'material'
-  palette:    
-  # Light mode
+  icon:
+    logo: material/emoticon-happy
+  favicon: https://static.vecteezy.com/system/resources/previews/015/337/689/non_2x/web-icon-web-sign-free-png.png
+  name: 'material'  
+  palette:  
+  # para mudar as cores: https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/  
+  # Light mode  
   - media: "(prefers-color-scheme: light)"
     scheme: default
-    primary: pink
+    primary: deep orange
     accent: indigo
     toggle:
-      icon: material/toggle-switch-off-outline
+      icon: material/brightness-7
       name: Switch to dark mode
 
   # Dark mode
   - media: "(prefers-color-scheme: dark)"
     scheme: slate
-    primary: pink
+    primary: deep orange
     accent: blue
     toggle:
-      icon: material/toggle-switch
+      icon: material/brightness-4
       name: Switch to light mode
 
   features:
+    - navigation.tracking
     - content.tabs.link
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    # - navigation.tabs
+    # - navigation.expand
+    - navigation.top
 
 # Extensions
 markdown_extensions:
   - admonition
   - footnotes
   - attr_list
+  - md_in_html
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.superfences:
@@ -58,19 +70,31 @@ markdown_extensions:
       permalink: true
 
 plugins:
+  - tags:
+      tags_file: tags.md
+      tags_hierarchy: true
   - search
   - roamlinks
-  - blog
-  - rss:
-      match_path: blog/posts/.* 
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags
+  # - blog
+  # - rss:
+  #     match_path: blog/posts/.* 
+  #     date_from_meta:
+  #       as_creation: date
+  #     categories:
+  #       - categories
+  #       - tags
 
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid/dist/mermaid.min.js 
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/welyson1
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/welyson1/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@welyson1

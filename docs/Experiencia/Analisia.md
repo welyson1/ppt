@@ -1,12 +1,10 @@
 ---
 title: Analisia
 description: O projeto foi concluído com sucesso, entregando uma solução eficiente para o cliente.
-tags: Dados, Projeto de extenção, PowerBI
-thumbnail: OIP.jpg
-dataInicio: 2024-03-01 
-dataFim: 2024-12-01
-colecao: Experiência
-importante: true
+tags: 
+    - Dados 
+    - Projeto de extenção 
+    - PowerBI
 ---
 
 # Conteúdo do Projeto A

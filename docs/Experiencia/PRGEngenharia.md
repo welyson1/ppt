@@ -1,12 +1,10 @@
 ---
 title: PRG Engenharia
 description: Desenvolvedor Power Platform
-tags: Power Platforme, Trabalho
-thumbnail: OIP.jpg
-dataInicio: 2024-03-01 
-dataFim: 2024-12-01
-colecao: Experiência
-importante: true
+tags: 
+    - Power Platforme
+    - Trabalho
+date: 2024-01-31
 ---
 
 # Conteúdo do Projeto A

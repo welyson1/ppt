@@ -1,3 +1,14 @@
+---
+icon: material/emoticon-happy
+tags:
+  - HTML5
+  - JavaScript
+  - CSS
+# hide:
+#   - navigation
+#   - toc
+---
+
 # Meu nome é Welyson
 
 ## Sobre
@@ -135,3 +146,17 @@
 === "STEM para as Minas"
     Empresa a qual tenho um contrato ativo
     <!-- ![Image title](./venka.gif) -->
+
+
+## Projetos
+=== "SSVP"
+    Dedico minhas horas livres a gerencia deste projeto de extensão da UTFPR, que possui como principal objetivo transformar dados publicos em conhecimento acessivel para a comunidade.
+
+    {==Trabalhei com==}: App Sheet, Google looker Studio, Google Planilhas.
+
+=== "AgroHub 2023"
+    Empresa a qual tenho um contrato ativo
+    <!-- ![Image title](./venka.gif) -->
+
+## Certificados
+Todos meus certificações ficaram centralizados no [linkedin](https://www.linkedin.com/in/welyson1/details/certifications/)
